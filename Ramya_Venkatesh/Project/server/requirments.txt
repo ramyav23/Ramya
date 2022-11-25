@@ -1,0 +1,21 @@
+cvxpy==1.2.0
+fix-yahoo-finance==0.1.30
+ipython==8.2.0
+newsapi-python==0.2.6
+nltk==3.7
+numpy==1.22.3
+openpyxl== 3.0.9
+pandas==1.4.2
+pandas-datareader==0.10.0
+pandas-ta==0.3.14b0
+plotly==5.8.0
+PuLP==2.6.0
+seaborn==0.11.2
+yfinance==0.1.70
+ipywidgets==8.0.0rc0
+matplotlib==3.5.2
+matplotlib-inline== 0.1.3
+flask
+flask-Cors
+flask-restplus
+Werkzeug==0.16.1

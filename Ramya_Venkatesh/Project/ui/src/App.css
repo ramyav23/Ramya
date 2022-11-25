@@ -1,0 +1,129 @@
+.App {
+  background: linear-gradient(to right, #250056, #0076ae);
+  background-color: #0768fd;
+  padding-top: 60px;
+}
+
+.app-container {
+  background-color: #eeeeee;
+}
+
+.card {
+  margin-top: 20px;
+}
+
+.heading-text {
+  color: white;
+  text-align: center;
+  margin-top: -45px;
+  padding-bottom: 10px;
+}
+
+.logout {
+  position: absolute;
+  top: 19px;
+  right: 29px;
+  outline: none;
+  border: none;
+  border-radius: 6%;
+  font-size: 15px;
+  /* padding: 3px; */
+}
+.table-responsive {
+  margin: 85px 0 30px;
+  height: 578px;
+  overflow: scroll;
+}
+
+.custom-select {
+  position: absolute;
+  top: 50px;
+  width: 17% !important;
+  right: 3%;
+}
+.show {
+  display: block;
+  color: #212529;
+}
+.hide {
+  display: none;
+}
+.form-label {
+  color: #212529;
+}
+.pieform-container {
+  position: relative;
+  margin-top: -130px;
+  min-height: 230px;
+}
+.multi-select-container .input-container {
+  width: 230px;
+  display: flex;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+.multi-select-container .input-content {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  overflow: scroll;
+  width: 200px;
+  padding: 0.375rem 0.75rem;
+  font-weight: 400;
+  color: #212529;
+  background-color: #fff;
+  appearance: none;
+
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.multi-select-container .input-content span {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ced4da;
+  font-size: 13px;
+  line-height: 1;
+}
+.multi-select-container .dropdown-container {
+  min-height: 150px;
+  height: 150px;
+  overflow-y: scroll;
+  width: 230px;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  font-size: 13px;
+  font-weight: 400;
+}
+.multi-select-container .dropdown-content {
+  padding-left: 10px;
+}
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.pie-text {
+  margin-top: 10px;
+}
